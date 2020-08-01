@@ -3,11 +3,12 @@ This repo contains my test projects
 
 The CPUAllocator program implements an instance allocation application for a Cloud Operator that allocates the resources according to the user requirements
 
-# SETUP
+## INPUT Setup
 
-Add instances data in resource/instances.json in the following format:
+1. Add instances data in resource/instances.json in the following format:
 
 #Example
+```
 {
 "us-east": {
 "large": 0.13,
@@ -25,9 +26,10 @@ Add instances data in resource/instances.json in the following format:
 "10xlarge": 2.97
 }
 }
+```
 
-Add the input data to the cloudResource.properties file as:
-
+2. Add the input data to the cloudResource.properties file as:
+```
 #To request servers with minimum total cost for the given minimum number of CPUs and hours:
 #hours=
 #minCPUs=
@@ -45,7 +47,9 @@ Add the input data to the cloudResource.properties file as:
 hours=24
 minCPUs=115
 maxPrice=207.85
+```
 
-# RUN CPU Allocator
-
+## RUN CPUAllocator
+```
 java CPUAllocator
+```
