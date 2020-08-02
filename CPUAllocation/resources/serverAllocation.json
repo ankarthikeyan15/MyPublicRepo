@@ -1,1 +1,1 @@
-[{"servers":[{"8xlarge":7},{"xlarge":2}],"total_cost":"$207.84","region":"asia"}]
+[{"servers":[{"large":1}],"total_cost":"$2.64","region":"mexico"},{"servers":[{"xlarge":1}],"total_cost":"$4.8","region":"uae"},{"servers":[{"8xlarge":7}],"total_cost":"$198.24","region":"asia"}]

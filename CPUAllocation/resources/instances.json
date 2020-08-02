@@ -16,8 +16,29 @@
 },
 "asia": {
 "large": 0.14,
-"xlarge": 0.20,
+"xlarge": 0.25,
 "4xlarge": 0.67,
-"8xlarge": 1.18,
+"8xlarge": 1.18
+},
+"uae": {
+"large": 0.15,
+"xlarge": 0.20,
+"2xlarge": 0.47,
+"4xlarge": 0.82,
+"8xlarge": 1.8,
+"10xlarge": 2.95
+},
+"europe": {
+"large": 0.17,
+"2xlarge": 0.35,
+"4xlarge": 0.80,
+"8xlarge": 1.9,
+"10xlarge": 2.9
+},
+"mexico": {
+"large": 0.11,
+"xlarge": 0.30,
+"4xlarge": 0.69,
+"8xlarge": 1.28
 }
 }
